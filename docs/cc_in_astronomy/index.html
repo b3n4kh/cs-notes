@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Computational Concepts in Astronomy</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header>
+<h1 class="title">Computational Concepts in Astronomy</h1>
+</header>
+<h1 id="oct-02">Oct 02</h1>
+<p>Courant Friedrichs Lewy =&gt; CFL Condidtion</p>
+<p>https://de.wikipedia.org/wiki/CFL-Zahl</p>
+<p><span class="math inline">\(1AU = 1.5*10^8\)</span></p>
+<p><span class="math inline">\(1pc = 3.0856*10^13\)</span></p>
+<p>Theramal time scale / Kelvin-Hemlholtz time scale</p>
+<h1 id="oct-16">Oct 16</h1>
+<p><span class="math inline">\(dm\over dr = 4pir^2p\)</span></p>
+<p><span class="math inline">\(dp\over dr = - Gmp/r^2\)</span></p>
+<p><span class="math inline">\(dl\over dr = x\)</span></p>
+<h2 id="shooting-method">Shooting method</h2>
+<p><span class="math inline">\(u&#39;(t) = \lambda ( cos(t) - u ) - sin(t)\)</span></p>
+<p><span class="math inline">\(u(t) = e^(\lambda(t-t_0)) * (n - cos(t_0)) + cos(t)\)</span></p>
+<h1 id="oct-23">Oct 23</h1>
+<p>Page 29 - 37</p>
+<h2 id="discrete-diffusion-equation">Discrete Diffusion Equation</h2>
+<p><span class="math inline">\({ \partial u \over \partial t } = { \partial^2 u \over \partial x^2 }\)</span></p>
+<p>If x is positvive it’s a maximum so any change will mean Teamperature t will go down if negative its a minimum</p>
+<h2 id="symbolic-difference-schemes">Symbolic Difference schemes</h2>
+<p><span class="math inline">\({ u_j^{n+1} - u_j^n \over \Delta t } = { u_{j-1}^n - 2u_j^n + u_{j+1}^n \over \Delta x^2 }\)</span></p>
+<p><span class="math inline">\(f - Ce^{ikx} = f(x)\)</span> <span class="math inline">\(x_{j+1} = x_j + \Delta x, x_{j-1} = x_j - \Delta x\)</span> <span class="math inline">\(f_{j+1} = f(x_{j+1}) = f(x_j + \Delta x) = Ce^{ik(x_j+\Delta x)} = Ce^{ikxj} * e^{ik\Delta x}\)</span></p>
+<p><span class="math inline">\(Ce^{ikx_j} {e^{-ik\Delta x}) -2 + e^{ik\Delta x} \over \Delta x^2}\)</span></p>
+<p><span class="math inline">\({Ce^{ik\Delta x} \over \Delta x^2} [({e^{ik\Delta x} + e^{-ik\Delta x} \over 2 })*2 - 2]\)</span></p>
+<p><span class="math inline">\(e^{iy} = \cos{y} + i min y\)</span></p>
+<p><span class="math inline">\({2Ce^{ikxj} \over \Delta x^2 } [1 - {(k\Delta x)^2 \over 2!} ...]\)</span></p>
+<p><span class="math inline">\(Ce^{ikxj} [ -k^2 + {1 /over 2} {k^4 \Delta x^2 \over 4!} - 2 {k^6 \Delta x^4 \over 6!}]\)</span></p>
+<p><span class="math display">\[{d^2f \over dx^2 }= -k^2 f\]</span></p>
+</body>
+</html>
