@@ -59,3 +59,7 @@ ${2Ce^{ikxj} \over \Delta x^2 } [1 - {(k\Delta x)^2 \over 2!} ...]$
 $Ce^{ikxj} [ -k^2 + {1 /over 2} {k^4 \Delta x^2 \over 4!} - 2 {k^6 \Delta x^4 \over 6!}]$
 
 $${d^2f \over dx^2 }= -k^2 f$$
+
+
+# Nov 13
+

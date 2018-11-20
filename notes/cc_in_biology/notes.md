@@ -64,3 +64,9 @@ RNA ⇨ A,C,G,U
 DNA (Information Storage) ⇨transcription⇨ RNA (Information Transfer) ⇨translation⇨ Protein ( 20 Aminoacids )
 
 DNA double Helix either A ⇔ T or G ⇔ C
+
+## Human Genomea
+Genome size: $3*10^9 = 3Gbp$
+
+# Nov 20
+

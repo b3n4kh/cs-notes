@@ -45,4 +45,15 @@ Einelektronendichte $\rho(\vr)d\vr$
 
 ## Oct 29
 
+{TODO: Papier abtippen}
+
+## Nov 19
+
+https://de.wikipedia.org/wiki/Dirac-Gleichung
+
+https://de.wikipedia.org/wiki/Fermion  <=> https://de.wikipedia.org/wiki/Boson
+
+https://de.wikipedia.org/wiki/Wellenfunktion
+
+https://en.wikipedia.org/wiki/Integro-differential_equation
 
