@@ -70,3 +70,19 @@ Genome size: $3*10^9 = 3Gbp$
 
 # Nov 20
 
+
+# Nov 27
+
+https://de.wikipedia.org/wiki/Ribosomale_DNA ältersete bestandteile der DNA - gehen zurück 3.5 milliarden Jahre.
+In allen Lebewesen(Bakterien, Säugetieren, ...) gleich -> nur 1 ursprung allen Lebens.
+
+Proteins Sequenzalignment mit https://de.wikipedia.org/wiki/BLOSUM
+
+Highest Score = Best alignment
+
+https://www.uniprot.org/uniprot/P27635#structure
+
+
+
+
+
